@@ -150,7 +150,7 @@ $(function () {
       }
     }
     if(flag==0){
-      alert("This ID do not exist");
+      alert("This ID does not exist");
     }
     risk_text = Math.round(risk * 1000) / 10 + "%";
     if(risk<cut_off){
