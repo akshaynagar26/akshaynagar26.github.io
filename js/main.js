@@ -1,9 +1,5 @@
 
 
-window.onload = function(){
-  document.getElementById('b11').click();}
-
-
 
 
 $(function () {
