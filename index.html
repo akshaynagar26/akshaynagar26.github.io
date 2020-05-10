@@ -164,12 +164,12 @@
 
               <p>
                 <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                        <button type="button" id="b11" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
                         User Help
                         </button>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal in" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                           <div class="modal-content">
                             <div class="modal-header">
@@ -179,8 +179,15 @@
                               </button>
                             </div>
                             <div class="modal-body">
-                              <span style="color: red;">
-                              This App is developed for ....(this is to be completed)
+                              <span style="color: #222222;">
+                              This App is developed for Baltimore City Government Fleet Management Repair Deparment withing Department of General Services.
+                              <p>
+                              <br>Please pay attention to the following points while using the app :
+                              <br>1) Click on Vehicle ID box and start typing 0,1,8 or 9 then select the vehicel from the list
+                              <br>2) Click on CCTV Mapping to click see CCTV Mapping Data & Back to Application to come back to main page.
+                              <br>3) On CCTV Mapping Page , select projects and click filter resutls to see results
+                              <br>4) When you do select the Vehicle ID after typing 0,1,8 & 9 & select the vehicle watch the reuslts and rejoice.
+
                               </span>
                             </div>
                             <div class="modal-footer">
@@ -221,7 +228,7 @@
 			<h3><b>Please Enter the Vehicle ID: </b></h3>
       <form autocomplete="off" action="/action_page.php">
         <div class="autocomplete" style="width:300px;">
-          <input id="myInput" type="text" placeholder="Vehicle ID">
+          <input id="myInput" type="text" placeholder="Example 000036">
         </div>
         <input type="button" value="Search" id="id_search">
       </form>
@@ -285,7 +292,7 @@
 
 			<hr>
 
-			<h3>Comeback vs Regular</h3>
+			<h3>Comeback vs Regular (Department)</h3>
 
 			<!-- users doughnut and spline chart -->
 			<div class="row">

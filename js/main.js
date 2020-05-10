@@ -1,4 +1,11 @@
 
+
+window.onload = function(){
+  document.getElementById('b11').click();}
+
+
+
+
 $(function () {
 
   document.getElementById("date").innerHTML = Date();
